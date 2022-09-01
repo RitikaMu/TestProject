@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax-1, .parallax-2, .parallax-3 {
+      background-attachment: scroll;
+    }
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Galada', cursive;
+}
+
+header {
+    width: 100%; height: 100vh;
+    position: relative;
+    opacity: 0.75;
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .parallax h2 {
+        margin: auto;
+        position: relative;
+        left: 500px;
+        top: 50px;
+        width: 250px;
+        height: 40px;
+        padding: 10px;
+        color: darkred;
+        text-align: left;
+        font-family: 'Galada', cursive;
+        font-size: 8vh;
+}
+
+nav {
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: darkred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+nav .logo {
+    width: 25%; text-align: center;
+}
+
+nav .Menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .Menu a {
+    width: 25%;
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    font-size: large;
+}
+
+.parallax-1, .parallax-2, .parallax-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+.parallax-1 {
+    background-image: url("Maa.jpg");
+    min-height: 500px;
+}
+.parallax-2 {
+    background-image: url("Maa2.jpg");
+    min-height: 500px;
+}
+.parallax-3 {
+    background-image: url("maa3.jpg");
+    min-height: 400px;
+}
+.parallax-4 {
+    background-image: url("Maa1.jpg");
+    min-height: 300px;
+}
+
+.parallax-1 h2 {
+    margin: auto;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 5vh;
+}
+
+.para-1 p{
+    padding: 200px;
+    color: yellow;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.parallax-2 h2 {
+    margin: auto;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    color: darkgreen;
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 5vh;
+}
+
+.para-2 p {
+    padding: 300px;
+    color: darkred;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.parallax-3 h2 {
+    margin: auto;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 5vh;
+}
+.para-3 p {
+    padding: 300px;
+    color: darkblue;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.parallax-4 h2 {
+    margin: auto;
+    position: relative;
+    right: 640px;
+    top: 50px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    color: darkmagenta;
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 7vh;
+}
+.para-4 p {
+    padding: 430px;
+    color: darkgreen;
+    font-size: 6vh;
+    text-align: center;
+}
